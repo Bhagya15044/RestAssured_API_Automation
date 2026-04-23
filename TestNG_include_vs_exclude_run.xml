@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/kisho/IdeaProjects/RestAssured_API_Automation">
+        <groups>
+            <run>
+                <include name="reg">
+                </include>
+                <exclude name="smoke">
+                </exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.example.TestNG_Examples.APITesting_017_Grouping_The_TestCases">
+            </class>
+        </classes>
+    </test>
+</suite>
